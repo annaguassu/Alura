@@ -1,12 +1,11 @@
 package bytebankherdado;
 
-public class Gerente extends Funcionario implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
 
     private int senha;
 
-
     public double getBonificacao(){
-        // implementação da bonificação do gerente omitida
+        // implementação da bonificação do administrador omitida
     }
 
     @Override
